@@ -497,4 +497,17 @@ spec:
 
 ---
 
-# Questions
+# ConfigMaps
+
+```yaml {all|4,6,22-24}{lines: true}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: my-config
+data:
+    my-config-string: "Hello, Kubernetes!"
+```
+
+---
+
+# Custom Resources
